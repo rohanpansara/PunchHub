@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PunchHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="mainDiv">
+    <div class="container">
+      <h1><span style="color: #1b1b1b;">Punch</span><span style="color: #ffa31a;">Hub</span></h1>
+      <div class="input-section">
+        <label for="shiftHours">Shift Hours:</label>
+        <input type="number" id="shiftHours" min="0" step="0.5">
+      </div>
+      <div class="input-section">
+        <label for="punchIn">Punch In:</label>
+        <input type="time" id="punchIn">
+        <button id="addPunchInBtn" onclick="addPunchIn()">Add Punch In</button>
+      </div>
+
+      <div class="input-section">
+        <label for="punchOut">Punch Out:</label>
+        <input type="time" id="punchOut">
+        <button id="addPunchOutBtn" onclick="addPunchOut()">Add Punch Out</button>
+      </div>
+
+      <button id="resetInput" class="reset" onclick="resetInput()">Reset</button>
+      <button id="calculateTime" class="calc" onclick="calculateTime()">Calculate</button>
+    </div>
+
+    <div class="container">
+      <label class="mainLabel">Total time worked: <label id="result"></label></label>
+      <label class="mainLabel">Can leave by:
+        <label id="finalPunchOutTime"></label><label id="overtime"></label>
+      </label>
+      <div id="punchList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
