@@ -19,10 +19,6 @@ PunchHub is a simple web application for calculating punch out time and working 
 ## How to Run
 Simply open the `index.html` file in a web browser. Alternatively, you can host the files on a web server.
 
-## Shortcuts
-Ctrl+Enter - Calculate                                                                                                      
-'r' key - Reset
-
 ## Technologies Used
 - HTML
 - CSS
