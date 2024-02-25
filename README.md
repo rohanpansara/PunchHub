@@ -16,8 +16,8 @@ PunchHub is a simple web application for calculating punch out time and working 
 4. Click "Calculate" to calculate total time worked and the time to leave.
 5. To reset inputs and start over, click "Reset".
 
-## Screensots
-
+## Screenshot
+![Screenshot1]https://github.com/rohanpansara/PunchHub/blob/main/Screenshot1.png
 
 ## How to Run
 Simply open the `index.html` file in a web browser. Alternatively, you can host the files on a web server.
