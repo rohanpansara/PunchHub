@@ -1,4 +1,4 @@
-# PunchHub ([favicon.png](https://github.com/rohanpansara/PunchHub/blob/main/favicon.png))
+# PunchHub ![Logo](https://github.com/rohanpansara/PunchHub/blob/main/favicon.png)
 
 PunchHub is a simple web application for calculating punch out time and working hours. It allows users to keep track of their work hours by recording punch in and punch out times.
 
