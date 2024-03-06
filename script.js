@@ -171,7 +171,11 @@ function calculateOvertime(finalPunchOutTime) {
     var overtimeMinutes = Math.floor((overtimeMilliseconds % 3600000) / 60000);
 
     return "(Overtime ~ " + overtimeHours + "hrs " + overtimeMinutes + "mins)";
-  } else {
+  } 
+  else if(finalPunchOutTime===now){
+    return null;
+  }
+  else {
     // No overtime if final punch-out time is in the future
     return null;
   }
