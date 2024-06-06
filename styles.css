@@ -49,6 +49,10 @@ label {
   font-weight: bold;
 }
 
+#finalPunchOutTime{
+  color:#cf352e;
+}
+
 #overtime {
   color: #00a400;
 }
